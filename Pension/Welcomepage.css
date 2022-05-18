@@ -1,0 +1,138 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background-image:url(world.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family:sans-serif;
+}
+ 
+.Menu-Bar
+{
+    background-color: skyblue;
+    text-align:right;
+}
+.Menu-Bar ul
+{
+    display: inline-flex;
+    list-style: none;
+     color: crimson;
+}
+.Menu-Bar ul li
+{
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+}
+.Menu-Bar ul li a
+{
+    text-decoration: inherit;
+    color: yellow;
+}
+.Menu-Bar ul li:hover
+{
+    background: darkblue;
+    border-radius:4px;
+}
+.Menu-Bar .fas
+{
+    margin-right: 9px;
+}
+.quote{
+    text-align: center;
+    text-decoration-color: darkgreen;
+    text-decoration-style: double;
+    color: red;
+    font-family: sans-serif;
+    font-style: italic;
+}
+.pd h2
+{
+     position: absolute;
+     color:black;
+    text-align:center;
+}
+.links{
+     
+    text-align: right;
+    top: 15px;
+    right: 300px;
+    text-shadow: 2px;
+}
+.links h3{
+    color: orange;
+}
+.lcf{
+    cursor: pointer;
+    top:auto;
+    font-weight: bold;
+    transform: scale();
+}
+.fpaf{
+    cursor: pointer;
+    top:auto;
+    font-weight: bold;
+}
+.nhis{
+    cursor: pointer;
+    top:auto;
+    font-weight: bold;
+}
+.A4{
+    cursor: pointer;
+    top:auto;
+    font-weight: bold;
+}
+.abc{
+      
+    position:absolute;
+    cursor: pointer;
+}
+button{
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 35px 90px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #009688;
+    background: transparent;
+    color: darkblue;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+span{
+    background: #009688;
+    height: 100%;
+    width:0;
+    border-radius:25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+    
+}
+ 
+button:hover span{
+    width: 100%;
+}
+button:hover{
+    border: none;
+}
+button .fas{
+    margin-right: 9px;
+}
+.logo{
+    width: 85px;
+    position:absolute;
+    top:10px;
+    left:190px;
+    cursor: pointer;
+}
